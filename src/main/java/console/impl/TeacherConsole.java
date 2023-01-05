@@ -12,7 +12,7 @@ public class TeacherConsole implements IConsole {
         while (true) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("'1' - \"show my lessons\"  '2' - \"add task\"  '3' - \"grade answer\"" +
-                    "'4' - \"set answer status\"  '0' - \"exit\"");
+                    "\n'4' - \"set answer status\"  '0' - \"exit\"");
             int command = scanner.nextInt();
             if (command == 1) {
                 TeacherCans.getInstance().showLessons(teacher);

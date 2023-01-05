@@ -4,7 +4,6 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
 
 @Getter
 @Setter
@@ -20,7 +19,7 @@ public class Subject {
 
     @Override
     public String toString() {
-        return "Subject id: " + id +
+        return "\nSubject id: " + id +
                 "\nName: " + name +
                 "\n- - - - - - - - - -";
     }

@@ -28,6 +28,18 @@ public class Lesson {
         this.finishTime = finishTime;
     }
 
+    @Override
+    public String toString() {
+        return "\nLesson id: " + id +
+                "\nName: " + name +
+                aClass +
+                teacher +
+                subject +
+                "\nStart Time: " + startTime +
+                "\nFinish Time: " + finishTime +
+                "\n- - - - - - - - - - - - - ";
+    }
+
     public static int currentId = 1;
 
     {

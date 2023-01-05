@@ -4,7 +4,6 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.management.ConstructorParameters;
 
 @Getter
 @Setter
@@ -26,7 +25,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User id: " + id +
+        return "\nUser id: " + id +
                 "\nName: " + name +
                 "\n- - - - - - - - - -";
     }

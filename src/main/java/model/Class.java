@@ -28,7 +28,7 @@ public class Class {
 
     @Override
     public String toString() {
-        return "Class id: " + id +
+        return "\nClass id: " + id +
                 "\nName: " + name +
                 "\nSchool:" + school +
                 "\n- - - - - - - - - - - ";

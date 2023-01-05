@@ -23,6 +23,16 @@ public class Answer {
         this.student = student;
     }
 
+    @Override
+    public String toString() {
+        return "\nAnswer id: " + id +
+                task +
+                "\nAnswer: " + answer +
+                "\nStatus: " + status +
+                "\nStudent: " + student +
+                "\n- - - - - - - - - - - - ";
+    }
+
     public static int currentId = 1;
 
     {

@@ -20,7 +20,7 @@ public class School {
 
     @Override
     public String toString() {
-        return "School id: " + id +
+        return "\nSchool id: " + id +
                 "\nName: " + name  +
                 "\nAddress: " + address +
                 "\n- - - - - - - - - - - ";
